@@ -132,7 +132,7 @@ sb.heatmap(df.corr(), annot = True, cmap = 'magma')
 plt.savefig('heatmap.png')
 plt.show()
 
-# 3. Distribution plot
+#Distribution plot
 
 sb.distplot(df['SalePrice'], color = 'r')
 plt.title('Sale Price Distribution', fontsize = 16)
